@@ -9,8 +9,8 @@
 
 body{
     background: whitesmoke;
-    min-height: 100vh;
-    /*overflow-x: hidden;*/
+    min-height: 100;
+    overflow-x: hidden;
 }
 
 header{
@@ -44,7 +44,7 @@ header{
 .navigation a:hover,
 .navigation a:active{
     background: #359381;
-    color: white;
+    color: #fff;
 }
 
 .parallax{
@@ -68,4 +68,22 @@ header{
     left: 0;
     width: 100%;
     pointer-events: none;
+}
+
+/*.sec{
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
 }
